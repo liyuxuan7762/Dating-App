@@ -2,3 +2,14 @@
 obj/
 .idea/
 client/
+.vs/
+
+# SQLite 临时缓存和日志文件
+*.db-shm
+*.db-wal
+
+# 如果你的数据库后缀是 .sqlite 或 .sqlite3，也建议加上
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite3-shm
+*.sqlite3-wal
